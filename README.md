@@ -1,75 +1,85 @@
-# React + TypeScript + Vite
+# DreamEstate 🏡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern real estate platform designed to help users discover beautiful spaces and find a place that feels like home.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View DreamEstate Live](YOUR_VERCEL_URL)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🏠 Modern and responsive landing page
+- 🔎 Property search interface
+- 🏘️ Property categories
+- 🏡 Featured property listings
+- 📋 Property detail pages
+- ❤️ Favorite property interaction
+- 📅 Schedule property visit
+- 📩 Property inquiry form
+- 📱 Responsive design for desktop and mobile
+- ✨ Smooth scroll reveal animations
+- 🔄 Client-side routing with React Router
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Lucide React
+- React Icons
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🎨 Design
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+DreamEstate uses a clean and elegant visual style with:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Warm cream backgrounds
+- Deep navy typography
+- Gold accent colors
+- Editorial-style typography
+- Large property photography
+- Minimal and modern layouts
 
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── CTA.tsx
+│   ├── FeaturedProperties.tsx
+│   ├── Footer.tsx
+│   ├── Hero.tsx
+│   ├── Navbar.tsx
+│   ├── PropertyCard.tsx
+│   ├── PropertyTypes.tsx
+│   ├── Reveal.tsx
+│   └── ScheduleVisitModal.tsx
+│
+├── data/
+│   └── properties.ts
+│
+├── pages/
+│   ├── Contact.tsx
+│   ├── Properties.tsx
+│   └── PropertyDetail.tsx
+│
+├── App.tsx
+├── App.css
+└── index.css
 ```
+Getting Started
+1. Clone the repository : git clone https://github.com/aisyahdzakirah/dream-estate.git
+2. Navigate to the project : cd dream-estate
+3. Install dependencies : npm install
+4. Run the development server : npm run dev
+5. Build for production : npm run build
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+👩🏻‍💻 Developer
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Aisyah Dzakirah
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+Universitas Darussalam Gontor
+Teknik Informatika
+```md
+[View DreamEstate Live](https://dream-estate-qvhl.vercel.app/)
