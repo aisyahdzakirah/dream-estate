@@ -78,8 +78,7 @@ Getting Started
 👩🏻‍💻 Developer
 
 Aisyah Dzakirah
-
-Universitas Darussalam Gontor
-Teknik Informatika
+(Informatic Engineering)
+Univercity Of Darussalam Gontor
 ```md
 [View DreamEstate Live](https://dream-estate-qvhl.vercel.app/)
